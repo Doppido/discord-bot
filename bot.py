@@ -1,7 +1,8 @@
 import discord
 from discord.ext import commands
+import os
 
-TOKEN = "MTQ5MTkyMjcxMDc2NTUwMjYyNg.GyfLBH.KGQMIMPPyagYGDXnFzoDYWHkAhlUm-KdIL9QJQ"
+TOKEN = os.getenv("TOKEN")
 TARGET_USER_ID = 474609920419823616  # replace with the person's ID
 AUDIO_FILE = r"C:\Users\Lauri\Desktop\programovanie\dc\Havah Nagilah final.wav"
 
